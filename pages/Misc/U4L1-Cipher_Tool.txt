@@ -1,0 +1,66 @@
+# 1. Cipher Tool
+
+### Scenario
+
+A cipher is a means of encoding text using some repeatable algorithm.  Some common ciphers include Substitution Cipher
+
+- Caesar Cipher
+- Substitution Cipher
+- Playfair Cipher
+- Vigenere Cipher
+- Transposition Cipher
+
+---
+
+### Task
+
+Choose a type of cipher to implement in JavaScript.
+
+---
+
+### Requirements
+
+- Every Project:
+    - Push completed work to a new GitHub repo - name appropriately
+    - Use proper filesystem organization
+    - Include all required elements in index.html
+    - Include a proper heading
+    - Give your page an appropriate title (title tag)
+- Your web page should accept text from the user as well as the selection for encrypt or decrypt. If your cipher requires any additional information from the user, collect that as well.
+- Your tool should properly apply the cipher of your choosing to the given text and produce the correct output.
+- Be sure to show the name of the cipher and instructions on your page.
+- Your user may use their physical keyboard or an on-screen keyboard.
+
+---
+
+### Professional Website Requirements
+
+- **Color**
+    - Color choices are used carefully to highlight important information.
+    - If multiple colors are used, these colors are chosen with care so that the resulting visuals are clear and all elements are readable and are easy to look at.
+    - Avoid using exclusively bright colors.  Not all page elements need to be something other than black or white.
+- **Text & Font**
+    - Written information is clear and grammatically correct
+    - Font choice prioritizes readability
+    - Font sizes and colors are appropriate and make the content easy to read
+    - Important information is easily identified using text modifications (bold, italics, color change, etc)
+- **Images & Resources**
+    - Additional page elements (like images) add value to the page and are chosen thoughtfully
+    - Images have a clear purpose and are positioned on the page in a meaningful way
+    - Images have a proper alt text value
+    - Images are properly stored and organized by page in the “resources” folder in the file tree
+- **Links**
+    - Clickable items (text links or images) are clearly identified
+    - External resources are chosen thoughtfully and make sense in the context of the page
+    - Internal page links allow the user to navigate throughout your website. Each internal page is organized in the “pages” folder in the file tree.
+- **Inspect**
+    - The console should not show any text or testing outputs. Users can have access to this information and it is not safe or professional for them to see it.
+
+---
+
+### SDP
+
+Create a new file called “U5_Lab1_SDP.html”. Store this HTML page in the “pages” folder, in a folder named “SDP”.  Include a link to your SDP page somewhere in index.html.  Record your responses to the following questions.  Answer each question thoroughly and with full and complete sentences. Please make sure that all questions appear on different lines on the web page.
+
+1. What cipher will you be implementing? Choose from the list given or another cipher.
+2. In 1-2 sentences, describe the process of transformation that your cipher implements.
