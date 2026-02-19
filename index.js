@@ -81,10 +81,8 @@ function encrypt(){
     for(let i = 0; i < text.length; i++){
         let letter = text[i];
         if(alpha.includes(letter)){
-        console.log((alpha.indexOf(letter) + shift_value)%26)
         let j = (alpha.indexOf(letter) + shift_value)%26;
-        newString += alpha[j];
-        console.log(newString);}
+        newString += alpha[j];}
         else{
             newString += text[i];
         }
@@ -115,13 +113,11 @@ function decrypt(){
     for(let i = 0; i < text.length; i++){
         let letter = text[i];
         if(alpha.includes(letter)){
-        console.log((alpha.indexOf(letter) - shift_value)%26)
         let j = (alpha.indexOf(letter) - shift_value)%26;
         if (j < 0){
             j += 26
         }
-        newString += alpha[j];
-        console.log(newString);}
+        newString += alpha[j];}
         else{
             newString += text[i];
         }
